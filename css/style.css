@@ -37,6 +37,14 @@
     line-height: 2.188rem;
     font-family: 'Arvo', serif;
   }
+
+  .top p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Arvo', serif;
+  }
   
   .top h1 img {
     width: 3.125rem;
@@ -99,16 +107,15 @@
   }
 
   footer{
-    width: 50%;
-    margin: 12.5rem auto;
-    padding: 8.875em 0 1.875em 0;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
   }
 
   footer p{
     font-size: x-large;
     text-align: center;
-    margin-bottom: 1.875em;
+    margin-bottom: 1.5em;
     font-family: 'Arvo', serif;
   }
 
